@@ -72,6 +72,8 @@ let x = Object(10);
 //   + typeof 不能细分是啥对象【排除函数对象】, 返回结果是"object/function"
 //   + 而 typeof 就是基于二进制检测的: 它把 000 开始的都识别为对象, 而 null 全是 0, 所以也被识别为对象...
 //   + 但是内部识别为对象后，会再次检测这个对象有没有内部实现[[call]], 如果实现了，结果是function, 没有实现就是object
+
+//  + 好处：检测处理的性能是很高的
 // + instanceof
 // + constructor
 // + Object.prototype.toString.call([value])
