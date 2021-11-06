@@ -44,3 +44,6 @@ let surname= book && book.author && book.author,surname
 
 let surname= book?.author?.surname
 ```
+
+
+
