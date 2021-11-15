@@ -44,6 +44,10 @@ let surname= book && book.author && book.author,surname
 
 let surname= book?.author?.surname
 ```
+### 设置失败的情况
+* o 有一个只读自有属性p:不可能设置只读属性
+* o 有一个只读继承属性p:不可能用同名自有属性隐藏只读继承属性
+* o 没有自有属性p, o 没有继承通过设置方法定义的属性p, o的extensible特性是false
 
 
 

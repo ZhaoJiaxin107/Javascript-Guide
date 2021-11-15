@@ -21,6 +21,7 @@ let r = new Map();
 // 使用 new Array() 创建的对象继承自 Array.prototype
 // 使用 new Date() 创建的对象继承自 Date.prototype
 
+// 原型：每一个对象都有另一个与之关联的对象
 // 多数内置构造函数的原型都继承自 Object.prototype
 // 原型链：原型对象链接起来的序列
 
