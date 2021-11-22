@@ -66,6 +66,26 @@ const store = createStore(rootReducer, applyMiddleware(thunk));
 * redux-promise
 * redux-saga
 
+### 三大原则
+
+* 单一数据源
+
+  ```
+  整个应用的state被存储在一颗object tree中, 并且这个object tree只存在于唯一一个store中
+  ```
+
+* State是只读的
+
+  ```
+  唯一改变state的方法就是触发action, action是一个用于描述已发生事件的普通对象
+  ```
+
+* 使用纯函数来执行修改
+
+```
+为了描述action如何改变state tree, 需要编写reducer
+```
+
 
 
 
