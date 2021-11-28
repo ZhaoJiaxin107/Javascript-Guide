@@ -44,7 +44,11 @@ shouldComponentUpdate(nextProps, nextState) {
 }
 ```
 
+#### 高阶组件
 
+![image-20211127165410569](C:\Users\zjx_n\AppData\Roaming\Typora\typora-user-images\image-20211127165410569.png)
+
+![image-20211127172745145](C:\Users\zjx_n\AppData\Roaming\Typora\typora-user-images\image-20211127172745145.png)
 
 
 
