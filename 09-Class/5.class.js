@@ -44,3 +44,5 @@ let Square = class {
 
 let area = new Square(3).area;
 console.log("area", area); // 9
+
+
